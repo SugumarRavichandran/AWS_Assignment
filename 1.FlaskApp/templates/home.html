@@ -1,0 +1,12 @@
+<html>
+<head>
+<title> AWS Assignment </title>
+</head>
+<body>
+<h2> List of folders </h2> <br>
+{% for  i in folders %}
+<a href="list_files?prefix={{ i }}">{{i}}</a> <br>
+{% endfor %}
+
+</body>
+</html>
